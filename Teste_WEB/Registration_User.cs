@@ -1,0 +1,104 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Teste_WEB
+{
+    public partial class Registration_User : Form
+    {
+        public Registration_User()
+        {
+            InitializeComponent();
+        }
+        SqlDataReader dr;
+        SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-K1FQ5IFR;Initial Catalog=Auth;Integrated Security=True");
+        String con_reg = @"Data Source=LAPTOP-K1FQ5IFR;Initial Catalog=Auth;Integrated Security=True";
+        private static Regex email_validation()
+        {
+            string pattern = @"^(?!\.)(""([^""\r\\]|\\[""\r\\])*""|"
+                + @"([-a-z0-9!#$%&'*+/=?^_`{|}~]|(?<!\.)\.)*)(?<!\.)"
+                + @"@[a-z0-9][\w\.-]*[a-z0-9]\.[a-z][a-z\.]*[a-z]$";
+
+            return new Regex(pattern, RegexOptions.IgnoreCase);
+        }
+        static Regex validate_emailaddress = email_validation();
+        public Registration_User(string nome_log)
+        {
+            InitializeComponent();
+            txt_User.Text = nome_log;
+        }
+
+        private void Registration_User_Load(object sender, EventArgs e)
+        {
+            txt_Senha.UseSystemPasswordChar = true;
+        }
+      
+        private void guna2ImageCheckBox1_CheckedChanged_1(object sender, EventArgs e)
+        {
+            if (guna2ImageCheckBox1.Checked)
+            {
+                guna2ImageCheckBox1.Image = Properties.Resources.icon_v;
+                txt_Senha.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                guna2ImageCheckBox1.Image = Properties.Resources.icon_n_visivel;
+                txt_Senha.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void btn_registro_Click(object sender, EventArgs e)
+        {
+            String username, user_password;
+
+            username = txt_Email.Text;
+            user_password = txt_Senha.Text;
+
+            if (txt_Email.Text == "" || txt_Senha.Text == "")
+                MessageBox.Show("Por favor, preencha os campos corretamente", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (validate_emailaddress.IsMatch(txt_Email.Text) != true)
+            {
+                lbl_email.Text = "Email inválido!";
+                return;
+            }
+            try
+            {
+                String query = "SELECT * FROM Register_TB WHERE Email = '" + txt_Email.Text + "' AND Senha = '" + txt_Senha.Text + "'";
+                SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                if (dt.Rows.Count > 0)
+                {
+                    username = txt_Email.Text;
+                    user_password = txt_Senha.Text;
+                    Form1 Form1 = new Form1(txt_User.Text);
+                    Form1.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Login inválido", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txt_Email.Clear();
+                    txt_Senha.Clear();
+                    txt_Email.Focus();
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Erro de cadastro");
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+    }
+}
