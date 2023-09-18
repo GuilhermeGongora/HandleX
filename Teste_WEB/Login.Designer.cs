@@ -1,6 +1,6 @@
 ﻿namespace Teste_WEB
 {
-    partial class Registration_User
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.

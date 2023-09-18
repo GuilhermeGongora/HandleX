@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace Teste_WEB
 {
-    public partial class Form1 : Form
+    public partial class Classroom : Form
     {
-        public Form1()
+        public Classroom()
         {
             InitializeComponent();
         }
 
-        public Form1(string nome_log)
+        public Classroom(string nome_log)
         {
             InitializeComponent();
             label1.Text = "Seja bem-vindo(a) " + nome_log;

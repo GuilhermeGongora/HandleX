@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace Teste_WEB
 {
-    public partial class Registration_User : Form
+    public partial class Login : Form
     {
-        public Registration_User()
+        public Login()
         {
             InitializeComponent();
         }
@@ -30,7 +30,7 @@ namespace Teste_WEB
             return new Regex(pattern, RegexOptions.IgnoreCase);
         }
         static Regex validate_emailaddress = email_validation();
-        public Registration_User(string nome_log)
+        public Login(string nome_log)
         {
             InitializeComponent();
             txt_User.Text = nome_log;
@@ -79,7 +79,7 @@ namespace Teste_WEB
                 {
                     username = txt_Email.Text;
                     user_password = txt_Senha.Text;
-                    Form1 Form1 = new Form1(txt_User.Text);
+                    Classroom Form1 = new Classroom(txt_User.Text);
                     Form1.Show();
                     this.Hide();
                 }

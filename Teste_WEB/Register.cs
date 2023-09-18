@@ -84,7 +84,7 @@ namespace Teste_WEB
                 sqlCmd.Parameters.AddWithValue("@Sexo", cmb_Sexo.Text.Trim());
                 sqlCmd.ExecuteNonQuery();
                 MessageBox.Show("Registrado com sucesso!", "Confirmação", MessageBoxButtons.OK);
-                Form1 destino = new Form1(txt_User.Text);
+                Classroom destino = new Classroom(txt_User.Text);
                 this.Hide();
                 destino.Show();
                 clear();

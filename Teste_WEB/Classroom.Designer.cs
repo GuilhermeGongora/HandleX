@@ -1,6 +1,6 @@
 ﻿namespace Teste_WEB
 {
-    partial class Form1
+    partial class Classroom
     {
         /// <summary>
         /// Variável de designer necessária.

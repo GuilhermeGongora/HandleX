@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste_WEB", "Teste_WEB\Teste_WEB.csproj", "{5FE3E261-6594-4FC0-8454-146CA18E20AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handlex", "Teste_WEB\Handlex.csproj", "{5FE3E261-6594-4FC0-8454-146CA18E20AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
