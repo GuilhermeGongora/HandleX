@@ -42,16 +42,16 @@
             this.txt_Senha = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_Email = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.txt_User = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_User = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2CustomGradientPanel1.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2ControlBox1
@@ -242,47 +242,6 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(286, 286);
             this.guna2CustomGradientPanel1.TabIndex = 28;
             // 
-            // guna2ImageCheckBox1
-            // 
-            this.guna2ImageCheckBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageCheckBox1.CheckedState.Image = global::Teste_WEB.Properties.Resources.icon_v;
-            this.guna2ImageCheckBox1.CheckedState.ImageSize = new System.Drawing.Size(32, 32);
-            this.guna2ImageCheckBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ImageCheckBox1.Image = global::Teste_WEB.Properties.Resources.icon_n_visivel;
-            this.guna2ImageCheckBox1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageCheckBox1.ImageRotate = 0F;
-            this.guna2ImageCheckBox1.ImageSize = new System.Drawing.Size(32, 32);
-            this.guna2ImageCheckBox1.Location = new System.Drawing.Point(229, 153);
-            this.guna2ImageCheckBox1.Name = "guna2ImageCheckBox1";
-            this.guna2ImageCheckBox1.Size = new System.Drawing.Size(32, 32);
-            this.guna2ImageCheckBox1.TabIndex = 35;
-            this.guna2ImageCheckBox1.UseTransparentBackground = true;
-            this.guna2ImageCheckBox1.CheckedChanged += new System.EventHandler(this.guna2ImageCheckBox1_CheckedChanged_1);
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BorderRadius = 25;
-            this.guna2Panel1.Controls.Add(this.label1);
-            this.guna2Panel1.FillColor = System.Drawing.Color.Gray;
-            this.guna2Panel1.Location = new System.Drawing.Point(36, 3);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(191, 42);
-            this.guna2Panel1.TabIndex = 26;
-            this.guna2Panel1.UseTransparentBackground = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(49, 2);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 37);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Login";
-            // 
             // txt_User
             // 
             this.txt_User.Animated = true;
@@ -322,7 +281,48 @@
             this.guna2PictureBox1.TabIndex = 37;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // Registration_User
+            // guna2ImageCheckBox1
+            // 
+            this.guna2ImageCheckBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageCheckBox1.CheckedState.Image = global::Teste_WEB.Properties.Resources.icon_v;
+            this.guna2ImageCheckBox1.CheckedState.ImageSize = new System.Drawing.Size(32, 32);
+            this.guna2ImageCheckBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2ImageCheckBox1.Image = global::Teste_WEB.Properties.Resources.icon_n_visivel;
+            this.guna2ImageCheckBox1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageCheckBox1.ImageRotate = 0F;
+            this.guna2ImageCheckBox1.ImageSize = new System.Drawing.Size(32, 32);
+            this.guna2ImageCheckBox1.Location = new System.Drawing.Point(229, 153);
+            this.guna2ImageCheckBox1.Name = "guna2ImageCheckBox1";
+            this.guna2ImageCheckBox1.Size = new System.Drawing.Size(32, 32);
+            this.guna2ImageCheckBox1.TabIndex = 35;
+            this.guna2ImageCheckBox1.UseTransparentBackground = true;
+            this.guna2ImageCheckBox1.CheckedChanged += new System.EventHandler(this.guna2ImageCheckBox1_CheckedChanged_1);
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.BorderRadius = 25;
+            this.guna2Panel1.Controls.Add(this.label1);
+            this.guna2Panel1.FillColor = System.Drawing.Color.Gray;
+            this.guna2Panel1.Location = new System.Drawing.Point(42, 3);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(191, 42);
+            this.guna2Panel1.TabIndex = 26;
+            this.guna2Panel1.UseTransparentBackground = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(60, 2);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 37);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Login";
+            // 
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -332,15 +332,15 @@
             this.Controls.Add(this.lbl_email);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Registration_User";
+            this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Registration_User_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.guna2CustomGradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
