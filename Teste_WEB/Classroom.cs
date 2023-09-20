@@ -24,7 +24,19 @@ namespace Teste_WEB
             label1.Text = "Seja bem-vindo(a) " + nome_log;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+       
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pct_Bio_MouseHover(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pct_Bio_Click(object sender, EventArgs e)
         {
             string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\BIO\\bio.html";
             try
@@ -35,11 +47,6 @@ namespace Teste_WEB
             {
                 MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
