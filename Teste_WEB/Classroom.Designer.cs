@@ -183,7 +183,8 @@
             this.pct_Bio.TabIndex = 2;
             this.pct_Bio.TabStop = false;
             this.pct_Bio.Click += new System.EventHandler(this.pct_Bio_Click);
-            this.pct_Bio.MouseHover += new System.EventHandler(this.pct_Bio_MouseHover);
+            this.pct_Bio.MouseLeave += new System.EventHandler(this.pct_Bio_MouseLeave);
+            this.pct_Bio.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pct_Bio_MouseMove);
             // 
             // Classroom
             // 

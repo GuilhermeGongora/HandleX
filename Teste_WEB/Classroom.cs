@@ -31,11 +31,6 @@ namespace Teste_WEB
             
         }
 
-        private void pct_Bio_MouseHover(object sender, EventArgs e)
-        {
-
-        }
-
         private void pct_Bio_Click(object sender, EventArgs e)
         {
             string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\BIO\\bio.html";
@@ -47,6 +42,16 @@ namespace Teste_WEB
             {
                 MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
             }
+        }
+
+        private void pct_Bio_MouseLeave(object sender, EventArgs e)
+        {
+            pct_Bio.Image = Properties.Resources.Biology;
+        }
+
+        private void pct_Bio_MouseMove(object sender, MouseEventArgs e)
+        {
+            pct_Bio.Image = Properties.Resources.icon_email;
         }
     }
 }
