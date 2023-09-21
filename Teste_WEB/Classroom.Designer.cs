@@ -39,22 +39,22 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pct_Filo = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pct_Mat = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pct_Fis = new System.Windows.Forms.PictureBox();
             this.pct_Bio = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Filo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Mat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Fis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Bio)).BeginInit();
             this.SuspendLayout();
             // 
@@ -125,13 +125,14 @@
             this.pictureBox11.TabIndex = 22;
             this.pictureBox11.TabStop = false;
             // 
-            // pictureBox12
+            // pct_Filo
             // 
-            this.pictureBox12.Location = new System.Drawing.Point(502, 43);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(145, 121);
-            this.pictureBox12.TabIndex = 21;
-            this.pictureBox12.TabStop = false;
+            this.pct_Filo.Location = new System.Drawing.Point(502, 43);
+            this.pct_Filo.Name = "pct_Filo";
+            this.pct_Filo.Size = new System.Drawing.Size(145, 121);
+            this.pct_Filo.TabIndex = 21;
+            this.pct_Filo.TabStop = false;
+            this.pct_Filo.Click += new System.EventHandler(this.pct_Filo_Click);
             // 
             // pictureBox6
             // 
@@ -141,13 +142,14 @@
             this.pictureBox6.TabIndex = 20;
             this.pictureBox6.TabStop = false;
             // 
-            // pictureBox5
+            // pct_Mat
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(341, 43);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(145, 121);
-            this.pictureBox5.TabIndex = 19;
-            this.pictureBox5.TabStop = false;
+            this.pct_Mat.Location = new System.Drawing.Point(341, 43);
+            this.pct_Mat.Name = "pct_Mat";
+            this.pct_Mat.Size = new System.Drawing.Size(145, 121);
+            this.pct_Mat.TabIndex = 19;
+            this.pct_Mat.TabStop = false;
+            this.pct_Mat.Click += new System.EventHandler(this.pct_Mat_Click);
             // 
             // pictureBox4
             // 
@@ -165,13 +167,14 @@
             this.pictureBox3.TabIndex = 17;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox2
+            // pct_Fis
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(180, 43);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(145, 121);
-            this.pictureBox2.TabIndex = 16;
-            this.pictureBox2.TabStop = false;
+            this.pct_Fis.Location = new System.Drawing.Point(180, 43);
+            this.pct_Fis.Name = "pct_Fis";
+            this.pct_Fis.Size = new System.Drawing.Size(145, 121);
+            this.pct_Fis.TabIndex = 16;
+            this.pct_Fis.TabStop = false;
+            this.pct_Fis.Click += new System.EventHandler(this.pct_Fis_Click);
             // 
             // pct_Bio
             // 
@@ -194,12 +197,12 @@
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox12);
+            this.Controls.Add(this.pct_Filo);
             this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pct_Mat);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pct_Fis);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.pct_Bio);
             this.Controls.Add(this.label1);
@@ -212,12 +215,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Filo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Mat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Fis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Bio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -236,12 +239,12 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pct_Filo;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pct_Mat;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pct_Fis;
     }
 }
 
