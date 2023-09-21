@@ -38,22 +38,22 @@
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pct_Quim = new System.Windows.Forms.PictureBox();
             this.pct_Filo = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pct_Mat = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pct_Lit = new System.Windows.Forms.PictureBox();
+            this.pct_Port = new System.Windows.Forms.PictureBox();
             this.pct_Fis = new System.Windows.Forms.PictureBox();
             this.pct_Bio = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Quim)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Filo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Mat)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Lit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Port)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Fis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Bio)).BeginInit();
             this.SuspendLayout();
@@ -117,13 +117,14 @@
             this.pictureBox10.TabIndex = 23;
             this.pictureBox10.TabStop = false;
             // 
-            // pictureBox11
+            // pct_Quim
             // 
-            this.pictureBox11.Location = new System.Drawing.Point(662, 43);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(145, 121);
-            this.pictureBox11.TabIndex = 22;
-            this.pictureBox11.TabStop = false;
+            this.pct_Quim.Location = new System.Drawing.Point(662, 43);
+            this.pct_Quim.Name = "pct_Quim";
+            this.pct_Quim.Size = new System.Drawing.Size(145, 121);
+            this.pct_Quim.TabIndex = 22;
+            this.pct_Quim.TabStop = false;
+            this.pct_Quim.Click += new System.EventHandler(this.pct_Quim_Click);
             // 
             // pct_Filo
             // 
@@ -151,21 +152,23 @@
             this.pct_Mat.TabStop = false;
             this.pct_Mat.Click += new System.EventHandler(this.pct_Mat_Click);
             // 
-            // pictureBox4
+            // pct_Lit
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(19, 179);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(145, 121);
-            this.pictureBox4.TabIndex = 18;
-            this.pictureBox4.TabStop = false;
+            this.pct_Lit.Location = new System.Drawing.Point(19, 179);
+            this.pct_Lit.Name = "pct_Lit";
+            this.pct_Lit.Size = new System.Drawing.Size(145, 121);
+            this.pct_Lit.TabIndex = 18;
+            this.pct_Lit.TabStop = false;
+            this.pct_Lit.Click += new System.EventHandler(this.pct_Lit_Click);
             // 
-            // pictureBox3
+            // pct_Port
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(180, 179);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(145, 121);
-            this.pictureBox3.TabIndex = 17;
-            this.pictureBox3.TabStop = false;
+            this.pct_Port.Location = new System.Drawing.Point(180, 179);
+            this.pct_Port.Name = "pct_Port";
+            this.pct_Port.Size = new System.Drawing.Size(145, 121);
+            this.pct_Port.TabIndex = 17;
+            this.pct_Port.TabStop = false;
+            this.pct_Port.Click += new System.EventHandler(this.pct_Port_Click);
             // 
             // pct_Fis
             // 
@@ -196,12 +199,12 @@
             this.ClientSize = new System.Drawing.Size(858, 429);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox11);
+            this.Controls.Add(this.pct_Quim);
             this.Controls.Add(this.pct_Filo);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pct_Mat);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pct_Lit);
+            this.Controls.Add(this.pct_Port);
             this.Controls.Add(this.pct_Fis);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.pct_Bio);
@@ -214,12 +217,12 @@
             this.Text = "Classroom";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Quim)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Filo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Mat)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Lit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Port)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Fis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Bio)).EndInit();
             this.ResumeLayout(false);
@@ -238,12 +241,12 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pct_Quim;
         private System.Windows.Forms.PictureBox pct_Filo;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pct_Mat;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pct_Lit;
+        private System.Windows.Forms.PictureBox pct_Port;
         private System.Windows.Forms.PictureBox pct_Fis;
     }
 }

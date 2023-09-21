@@ -92,5 +92,44 @@ namespace Teste_WEB
                 MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
             }
         }
+
+        private void pct_Quim_Click(object sender, EventArgs e)
+        {
+            string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\quim.html";
+            try
+            {
+                Process.Start("chrome.exe", url);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
+            }
+        }
+
+        private void pct_Lit_Click(object sender, EventArgs e)
+        {
+            string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\lit.html";
+            try
+            {
+                Process.Start("chrome.exe", url);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
+            }
+        }
+
+        private void pct_Port_Click(object sender, EventArgs e)
+        {
+            string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\port.html";
+            try
+            {
+                Process.Start("chrome.exe", url);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
+            }
+        }
     }
 }
