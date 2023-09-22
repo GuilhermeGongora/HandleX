@@ -29,43 +29,34 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pct_devs = new System.Windows.Forms.PictureBox();
+            this.pct_hist = new System.Windows.Forms.PictureBox();
             this.pct_Quim = new System.Windows.Forms.PictureBox();
             this.pct_Filo = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pct_Geo = new System.Windows.Forms.PictureBox();
             this.pct_Mat = new System.Windows.Forms.PictureBox();
             this.pct_Lit = new System.Windows.Forms.PictureBox();
             this.pct_Port = new System.Windows.Forms.PictureBox();
             this.pct_Fis = new System.Windows.Forms.PictureBox();
             this.pct_Bio = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_devs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_hist)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Quim)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Filo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Geo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Mat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Lit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Port)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Fis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Bio)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(301, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 45);
-            this.label1.TabIndex = 1;
             // 
             // guna2AnimateWindow1
             // 
@@ -101,25 +92,27 @@
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox1.TabIndex = 15;
             // 
-            // pictureBox8
+            // pct_devs
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(662, 179);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(145, 121);
-            this.pictureBox8.TabIndex = 25;
-            this.pictureBox8.TabStop = false;
+            this.pct_devs.Location = new System.Drawing.Point(675, 261);
+            this.pct_devs.Name = "pct_devs";
+            this.pct_devs.Size = new System.Drawing.Size(145, 121);
+            this.pct_devs.TabIndex = 25;
+            this.pct_devs.TabStop = false;
+            this.pct_devs.Click += new System.EventHandler(this.pct_devs_Click);
             // 
-            // pictureBox10
+            // pct_hist
             // 
-            this.pictureBox10.Location = new System.Drawing.Point(502, 179);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(145, 121);
-            this.pictureBox10.TabIndex = 23;
-            this.pictureBox10.TabStop = false;
+            this.pct_hist.Location = new System.Drawing.Point(515, 261);
+            this.pct_hist.Name = "pct_hist";
+            this.pct_hist.Size = new System.Drawing.Size(145, 121);
+            this.pct_hist.TabIndex = 23;
+            this.pct_hist.TabStop = false;
+            this.pct_hist.Click += new System.EventHandler(this.pct_hist_Click);
             // 
             // pct_Quim
             // 
-            this.pct_Quim.Location = new System.Drawing.Point(662, 43);
+            this.pct_Quim.Location = new System.Drawing.Point(675, 125);
             this.pct_Quim.Name = "pct_Quim";
             this.pct_Quim.Size = new System.Drawing.Size(145, 121);
             this.pct_Quim.TabIndex = 22;
@@ -128,24 +121,25 @@
             // 
             // pct_Filo
             // 
-            this.pct_Filo.Location = new System.Drawing.Point(502, 43);
+            this.pct_Filo.Location = new System.Drawing.Point(515, 125);
             this.pct_Filo.Name = "pct_Filo";
             this.pct_Filo.Size = new System.Drawing.Size(145, 121);
             this.pct_Filo.TabIndex = 21;
             this.pct_Filo.TabStop = false;
             this.pct_Filo.Click += new System.EventHandler(this.pct_Filo_Click);
             // 
-            // pictureBox6
+            // pct_Geo
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(341, 179);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(145, 121);
-            this.pictureBox6.TabIndex = 20;
-            this.pictureBox6.TabStop = false;
+            this.pct_Geo.Location = new System.Drawing.Point(354, 261);
+            this.pct_Geo.Name = "pct_Geo";
+            this.pct_Geo.Size = new System.Drawing.Size(145, 121);
+            this.pct_Geo.TabIndex = 20;
+            this.pct_Geo.TabStop = false;
+            this.pct_Geo.Click += new System.EventHandler(this.pct_Geo_Click);
             // 
             // pct_Mat
             // 
-            this.pct_Mat.Location = new System.Drawing.Point(341, 43);
+            this.pct_Mat.Location = new System.Drawing.Point(354, 125);
             this.pct_Mat.Name = "pct_Mat";
             this.pct_Mat.Size = new System.Drawing.Size(145, 121);
             this.pct_Mat.TabIndex = 19;
@@ -154,7 +148,7 @@
             // 
             // pct_Lit
             // 
-            this.pct_Lit.Location = new System.Drawing.Point(19, 179);
+            this.pct_Lit.Location = new System.Drawing.Point(32, 261);
             this.pct_Lit.Name = "pct_Lit";
             this.pct_Lit.Size = new System.Drawing.Size(145, 121);
             this.pct_Lit.TabIndex = 18;
@@ -163,7 +157,7 @@
             // 
             // pct_Port
             // 
-            this.pct_Port.Location = new System.Drawing.Point(180, 179);
+            this.pct_Port.Location = new System.Drawing.Point(193, 261);
             this.pct_Port.Name = "pct_Port";
             this.pct_Port.Size = new System.Drawing.Size(145, 121);
             this.pct_Port.TabIndex = 17;
@@ -172,7 +166,7 @@
             // 
             // pct_Fis
             // 
-            this.pct_Fis.Location = new System.Drawing.Point(180, 43);
+            this.pct_Fis.Location = new System.Drawing.Point(193, 125);
             this.pct_Fis.Name = "pct_Fis";
             this.pct_Fis.Size = new System.Drawing.Size(145, 121);
             this.pct_Fis.TabIndex = 16;
@@ -182,7 +176,7 @@
             // pct_Bio
             // 
             this.pct_Bio.Image = global::Teste_WEB.Properties.Resources.Biology;
-            this.pct_Bio.Location = new System.Drawing.Point(19, 43);
+            this.pct_Bio.Location = new System.Drawing.Point(32, 125);
             this.pct_Bio.Name = "pct_Bio";
             this.pct_Bio.Size = new System.Drawing.Size(145, 121);
             this.pct_Bio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -192,34 +186,48 @@
             this.pct_Bio.MouseLeave += new System.EventHandler(this.pct_Bio_MouseLeave);
             this.pct_Bio.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pct_Bio_MouseMove);
             // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2HtmlLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(277, 21);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(5, 4);
+            this.guna2HtmlLabel1.TabIndex = 26;
+            this.guna2HtmlLabel1.Text = null;
+            // 
             // Classroom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Teste_WEB.Properties.Resources.HandleX__5_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(858, 429);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox10);
+            this.Controls.Add(this.guna2HtmlLabel1);
+            this.Controls.Add(this.pct_devs);
+            this.Controls.Add(this.pct_hist);
             this.Controls.Add(this.pct_Quim);
             this.Controls.Add(this.pct_Filo);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pct_Geo);
             this.Controls.Add(this.pct_Mat);
             this.Controls.Add(this.pct_Lit);
             this.Controls.Add(this.pct_Port);
             this.Controls.Add(this.pct_Fis);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.pct_Bio);
-            this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Classroom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Classroom";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_devs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_hist)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Quim)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Filo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_Geo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Mat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Lit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Port)).EndInit();
@@ -231,7 +239,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pct_Bio;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
@@ -239,15 +246,16 @@
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private System.Windows.Forms.PageSetupDialog pageSetupDialog1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pct_devs;
+        private System.Windows.Forms.PictureBox pct_hist;
         private System.Windows.Forms.PictureBox pct_Quim;
         private System.Windows.Forms.PictureBox pct_Filo;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pct_Geo;
         private System.Windows.Forms.PictureBox pct_Mat;
         private System.Windows.Forms.PictureBox pct_Lit;
         private System.Windows.Forms.PictureBox pct_Port;
         private System.Windows.Forms.PictureBox pct_Fis;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
     }
 }
 

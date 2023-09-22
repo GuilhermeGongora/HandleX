@@ -123,6 +123,16 @@ namespace Teste_WEB.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HandleX__5_ {
+            get {
+                object obj = ResourceManager.GetObject("HandleX (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_email {
             get {
                 object obj = ResourceManager.GetObject("icon_email", resourceCulture);

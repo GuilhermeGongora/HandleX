@@ -236,5 +236,8 @@
   <ItemGroup>
     <None Include="Resources\Biology.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HandleX %285%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

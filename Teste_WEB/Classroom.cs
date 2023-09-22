@@ -21,7 +21,7 @@ namespace Teste_WEB
         public Classroom(string nome_log)
         {
             InitializeComponent();
-            label1.Text = "Seja bem-vindo(a) " + nome_log;
+            guna2HtmlLabel1.Text = "Seja bem-vindo(a) " + nome_log;
         }
 
        
@@ -122,6 +122,45 @@ namespace Teste_WEB
         private void pct_Port_Click(object sender, EventArgs e)
         {
             string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\port.html";
+            try
+            {
+                Process.Start("chrome.exe", url);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
+            }
+        }
+
+        private void pct_Geo_Click(object sender, EventArgs e)
+        {
+            string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\geo.html";
+            try
+            {
+                Process.Start("chrome.exe", url);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
+            }
+        }
+
+        private void pct_hist_Click(object sender, EventArgs e)
+        {
+            string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\hist.html";
+            try
+            {
+                Process.Start("chrome.exe", url);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
+            }
+        }
+
+        private void pct_devs_Click(object sender, EventArgs e)
+        {
+            string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\devs.html";
             try
             {
                 Process.Start("chrome.exe", url);
