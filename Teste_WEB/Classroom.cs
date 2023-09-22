@@ -170,5 +170,10 @@ namespace Teste_WEB
                 MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
             }
         }
+
+        private void Classroom_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

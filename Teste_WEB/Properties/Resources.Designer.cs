@@ -63,6 +63,16 @@ namespace Teste_WEB.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BIOLOGIA {
+            get {
+                object obj = ResourceManager.GetObject("BIOLOGIA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Biology {
             get {
                 object obj = ResourceManager.GetObject("Biology", resourceCulture);
