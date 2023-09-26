@@ -242,5 +242,8 @@
   <ItemGroup>
     <None Include="Resources\BIOLOGIA.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Biologia_Icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

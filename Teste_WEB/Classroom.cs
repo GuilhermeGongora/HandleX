@@ -46,12 +46,12 @@ namespace Teste_WEB
 
         private void pct_Bio_MouseLeave(object sender, EventArgs e)
         {
-            pct_Bio.Image = Properties.Resources.Biology;
+            pct_Bio.Image = Properties.Resources.Biologia_Icon;
         }
 
         private void pct_Bio_MouseMove(object sender, MouseEventArgs e)
         {
-            pct_Bio.Image = Properties.Resources.icon_email;
+            pct_Bio.Image = Properties.Resources.Biology;
         }
 
         private void pct_Fis_Click(object sender, EventArgs e)

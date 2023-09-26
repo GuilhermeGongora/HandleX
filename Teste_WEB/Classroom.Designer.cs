@@ -96,7 +96,7 @@
             // 
             this.pct_devs.Location = new System.Drawing.Point(712, 259);
             this.pct_devs.Name = "pct_devs";
-            this.pct_devs.Size = new System.Drawing.Size(159, 164);
+            this.pct_devs.Size = new System.Drawing.Size(168, 172);
             this.pct_devs.TabIndex = 25;
             this.pct_devs.TabStop = false;
             this.pct_devs.Click += new System.EventHandler(this.pct_devs_Click);
@@ -105,7 +105,7 @@
             // 
             this.pct_hist.Location = new System.Drawing.Point(537, 259);
             this.pct_hist.Name = "pct_hist";
-            this.pct_hist.Size = new System.Drawing.Size(159, 164);
+            this.pct_hist.Size = new System.Drawing.Size(168, 172);
             this.pct_hist.TabIndex = 23;
             this.pct_hist.TabStop = false;
             this.pct_hist.Click += new System.EventHandler(this.pct_hist_Click);
@@ -114,7 +114,7 @@
             // 
             this.pct_Quim.Location = new System.Drawing.Point(712, 79);
             this.pct_Quim.Name = "pct_Quim";
-            this.pct_Quim.Size = new System.Drawing.Size(159, 164);
+            this.pct_Quim.Size = new System.Drawing.Size(168, 172);
             this.pct_Quim.TabIndex = 22;
             this.pct_Quim.TabStop = false;
             this.pct_Quim.Click += new System.EventHandler(this.pct_Quim_Click);
@@ -123,7 +123,7 @@
             // 
             this.pct_Filo.Location = new System.Drawing.Point(537, 79);
             this.pct_Filo.Name = "pct_Filo";
-            this.pct_Filo.Size = new System.Drawing.Size(159, 164);
+            this.pct_Filo.Size = new System.Drawing.Size(168, 172);
             this.pct_Filo.TabIndex = 21;
             this.pct_Filo.TabStop = false;
             this.pct_Filo.Click += new System.EventHandler(this.pct_Filo_Click);
@@ -132,7 +132,7 @@
             // 
             this.pct_Geo.Location = new System.Drawing.Point(362, 259);
             this.pct_Geo.Name = "pct_Geo";
-            this.pct_Geo.Size = new System.Drawing.Size(159, 164);
+            this.pct_Geo.Size = new System.Drawing.Size(168, 172);
             this.pct_Geo.TabIndex = 20;
             this.pct_Geo.TabStop = false;
             this.pct_Geo.Click += new System.EventHandler(this.pct_Geo_Click);
@@ -141,7 +141,7 @@
             // 
             this.pct_Mat.Location = new System.Drawing.Point(362, 79);
             this.pct_Mat.Name = "pct_Mat";
-            this.pct_Mat.Size = new System.Drawing.Size(159, 164);
+            this.pct_Mat.Size = new System.Drawing.Size(168, 172);
             this.pct_Mat.TabIndex = 19;
             this.pct_Mat.TabStop = false;
             this.pct_Mat.Click += new System.EventHandler(this.pct_Mat_Click);
@@ -150,7 +150,7 @@
             // 
             this.pct_Lit.Location = new System.Drawing.Point(12, 259);
             this.pct_Lit.Name = "pct_Lit";
-            this.pct_Lit.Size = new System.Drawing.Size(159, 164);
+            this.pct_Lit.Size = new System.Drawing.Size(168, 172);
             this.pct_Lit.TabIndex = 18;
             this.pct_Lit.TabStop = false;
             this.pct_Lit.Click += new System.EventHandler(this.pct_Lit_Click);
@@ -159,7 +159,7 @@
             // 
             this.pct_Port.Location = new System.Drawing.Point(187, 259);
             this.pct_Port.Name = "pct_Port";
-            this.pct_Port.Size = new System.Drawing.Size(159, 164);
+            this.pct_Port.Size = new System.Drawing.Size(168, 172);
             this.pct_Port.TabIndex = 17;
             this.pct_Port.TabStop = false;
             this.pct_Port.Click += new System.EventHandler(this.pct_Port_Click);
@@ -168,17 +168,18 @@
             // 
             this.pct_Fis.Location = new System.Drawing.Point(187, 79);
             this.pct_Fis.Name = "pct_Fis";
-            this.pct_Fis.Size = new System.Drawing.Size(159, 164);
+            this.pct_Fis.Size = new System.Drawing.Size(168, 172);
             this.pct_Fis.TabIndex = 16;
             this.pct_Fis.TabStop = false;
             this.pct_Fis.Click += new System.EventHandler(this.pct_Fis_Click);
             // 
             // pct_Bio
             // 
-            this.pct_Bio.Image = global::Teste_WEB.Properties.Resources.Biology;
+            this.pct_Bio.BackColor = System.Drawing.Color.Transparent;
+            this.pct_Bio.Image = global::Teste_WEB.Properties.Resources.Biologia_Icon;
             this.pct_Bio.Location = new System.Drawing.Point(12, 79);
             this.pct_Bio.Name = "pct_Bio";
-            this.pct_Bio.Size = new System.Drawing.Size(159, 164);
+            this.pct_Bio.Size = new System.Drawing.Size(168, 172);
             this.pct_Bio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pct_Bio.TabIndex = 2;
             this.pct_Bio.TabStop = false;
