@@ -87,7 +87,7 @@
             this.guna2ControlBox1.CustomIconSize = 15F;
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(839, -1);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(843, -1);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox1.TabIndex = 15;
@@ -203,7 +203,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Teste_WEB.Properties.Resources.HandleX__5_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(884, 429);
+            this.ClientSize = new System.Drawing.Size(888, 437);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.pct_devs);
             this.Controls.Add(this.pct_hist);
