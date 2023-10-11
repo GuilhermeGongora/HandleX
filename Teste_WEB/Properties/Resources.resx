@@ -124,6 +124,9 @@
   <data name="GEO_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GEO_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Devs_Mold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Devs_Mold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,6 +145,9 @@
   <data name="icon-genero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-genero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Fis_Mold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fis_Mold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BIOLOGIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BIOLOGIA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -150,6 +156,18 @@
   </data>
   <data name="icon-visivel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-visivel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Geo_Mold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Geo_Mold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mat_Mold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mat_Mold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fil_Mold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fil_Mold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Component 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PT_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PT_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,14 +187,29 @@
   <data name="LIT_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LIT_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Component 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Component 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="QUIM_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\QUIM_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Port_Mold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Port_Mold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HandleX (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HandleX (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Hist_Mold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hist_Mold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon_email" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quim_Mold1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quim_Mold1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lit_Mold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lit_Mold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MAT_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MAT_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,7 +244,7 @@
   <data name="icon_password" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Component 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Component 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bio_Btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bio_Btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

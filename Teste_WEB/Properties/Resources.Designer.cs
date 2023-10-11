@@ -63,6 +63,16 @@ namespace Teste_WEB.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bio_Btn {
+            get {
+                object obj = ResourceManager.GetObject("Bio_Btn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BIOLOGIA {
             get {
                 object obj = ResourceManager.GetObject("BIOLOGIA", resourceCulture);
@@ -103,9 +113,39 @@ namespace Teste_WEB.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Component_3 {
+            get {
+                object obj = ResourceManager.GetObject("Component 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DEVS_Icon {
             get {
                 object obj = ResourceManager.GetObject("DEVS_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Devs_Mold {
+            get {
+                object obj = ResourceManager.GetObject("Devs_Mold", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fil_Mold {
+            get {
+                object obj = ResourceManager.GetObject("Fil_Mold", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,6 +173,16 @@ namespace Teste_WEB.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fis_Mold {
+            get {
+                object obj = ResourceManager.GetObject("Fis_Mold", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fortec {
             get {
                 object obj = ResourceManager.GetObject("Fortec", resourceCulture);
@@ -146,6 +196,16 @@ namespace Teste_WEB.Properties {
         internal static System.Drawing.Bitmap GEO_Icon {
             get {
                 object obj = ResourceManager.GetObject("GEO_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Geo_Mold {
+            get {
+                object obj = ResourceManager.GetObject("Geo_Mold", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +266,16 @@ namespace Teste_WEB.Properties {
         internal static System.Drawing.Bitmap HIST_Icon {
             get {
                 object obj = ResourceManager.GetObject("HIST_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hist_Mold {
+            get {
+                object obj = ResourceManager.GetObject("Hist_Mold", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +373,39 @@ namespace Teste_WEB.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Lit_Mold {
+            get {
+                object obj = ResourceManager.GetObject("Lit_Mold", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MAT_Icon {
             get {
                 object obj = ResourceManager.GetObject("MAT_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mat_Mold {
+            get {
+                object obj = ResourceManager.GetObject("Mat_Mold", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Port_Mold {
+            get {
+                object obj = ResourceManager.GetObject("Port_Mold", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -326,6 +426,16 @@ namespace Teste_WEB.Properties {
         internal static System.Drawing.Bitmap QUIM_Icon {
             get {
                 object obj = ResourceManager.GetObject("QUIM_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Quim_Mold1 {
+            get {
+                object obj = ResourceManager.GetObject("Quim_Mold1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

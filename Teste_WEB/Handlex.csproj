@@ -287,5 +287,38 @@
   <ItemGroup>
     <None Include="Resources\Component 1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Component 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quim_Mold1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fil_Mold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Devs_Mold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lit_Mold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fis_Mold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mat_Mold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Port_Mold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Geo_Mold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hist_Mold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bio_Btn.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
