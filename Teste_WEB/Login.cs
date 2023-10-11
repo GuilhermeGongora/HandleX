@@ -100,5 +100,12 @@ namespace Teste_WEB
                 conn.Close();
             }
         }
+
+        private void lbl_con_Click(object sender, EventArgs e)
+        {
+            Form_Registration destino_reg = new Form_Registration();
+            this.Hide();
+            destino_reg.Show();
+        }
     }
 }

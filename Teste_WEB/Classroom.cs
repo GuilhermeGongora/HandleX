@@ -14,7 +14,7 @@ namespace Teste_WEB
         public Classroom(string nome_log)
         {
             InitializeComponent();
-            guna2HtmlLabel1.Text = "Seja bem-vindo(a) " + nome_log;
+            guna2HtmlLabel1.Text = "Seja bem-vindo(a) " + nome_log + ".";
         }
 
 

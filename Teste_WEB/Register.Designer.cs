@@ -49,6 +49,8 @@
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
             this.CheckBox_Show = new Guna.UI2.WinForms.Guna2ImageCheckBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -171,7 +173,7 @@
             this.btn_registro.FillColor2 = System.Drawing.SystemColors.InactiveCaption;
             this.btn_registro.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_registro.ForeColor = System.Drawing.Color.Black;
-            this.btn_registro.Location = new System.Drawing.Point(595, 301);
+            this.btn_registro.Location = new System.Drawing.Point(595, 283);
             this.btn_registro.Name = "btn_registro";
             this.btn_registro.Size = new System.Drawing.Size(180, 45);
             this.btn_registro.TabIndex = 4;
@@ -241,7 +243,7 @@
             this.btn_limpar.FillColor2 = System.Drawing.SystemColors.InactiveCaption;
             this.btn_limpar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_limpar.ForeColor = System.Drawing.Color.Black;
-            this.btn_limpar.Location = new System.Drawing.Point(595, 362);
+            this.btn_limpar.Location = new System.Drawing.Point(595, 334);
             this.btn_limpar.Name = "btn_limpar";
             this.btn_limpar.Size = new System.Drawing.Size(180, 45);
             this.btn_limpar.TabIndex = 8;
@@ -335,6 +337,30 @@
             this.CheckBox_Show.UseTransparentBackground = true;
             this.CheckBox_Show.CheckedChanged += new System.EventHandler(this.guna2ImageCheckBox1_CheckedChanged);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(583, 394);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(183, 17);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "Já possui uma conta? Clique";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(763, 394);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 17);
+            this.label3.TabIndex = 38;
+            this.label3.Text = "AQUI.";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // Form_Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
@@ -342,6 +368,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::Teste_WEB.Properties.Resources.HandleX;
             this.ClientSize = new System.Drawing.Size(858, 429);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.CheckBox_Show);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.pictureBox3);
@@ -356,6 +383,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label3);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -396,5 +424,7 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private System.Windows.Forms.PageSetupDialog pageSetupDialog1;
         private Guna.UI2.WinForms.Guna2ImageCheckBox CheckBox_Show;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }

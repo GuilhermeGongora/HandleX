@@ -128,6 +128,12 @@ namespace Teste_WEB
 
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Login destino_log = new Login();
+            this.Hide();
+            destino_log.Show();
+        }
     }
     }
 

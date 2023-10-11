@@ -45,13 +45,13 @@
             this.txt_User = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lbl_con = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2ControlBox1
@@ -222,10 +222,12 @@
             this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel1.BorderRadius = 22;
+            this.guna2CustomGradientPanel1.Controls.Add(this.lbl_con);
+            this.guna2CustomGradientPanel1.Controls.Add(this.label2);
+            this.guna2CustomGradientPanel1.Controls.Add(this.label1);
             this.guna2CustomGradientPanel1.Controls.Add(this.txt_User);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2PictureBox1);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2ImageCheckBox1);
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2Panel1);
             this.guna2CustomGradientPanel1.Controls.Add(this.txt_Email);
             this.guna2CustomGradientPanel1.Controls.Add(this.txt_Senha);
             this.guna2CustomGradientPanel1.Controls.Add(this.btn_registro);
@@ -239,7 +241,7 @@
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(292, 98);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Quality = 100;
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(286, 286);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(286, 306);
             this.guna2CustomGradientPanel1.TabIndex = 28;
             // 
             // txt_User
@@ -298,29 +300,42 @@
             this.guna2ImageCheckBox1.UseTransparentBackground = true;
             this.guna2ImageCheckBox1.CheckedChanged += new System.EventHandler(this.guna2ImageCheckBox1_CheckedChanged_1);
             // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BorderRadius = 25;
-            this.guna2Panel1.Controls.Add(this.label1);
-            this.guna2Panel1.FillColor = System.Drawing.Color.Gray;
-            this.guna2Panel1.Location = new System.Drawing.Point(42, 3);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(191, 42);
-            this.guna2Panel1.TabIndex = 26;
-            this.guna2Panel1.UseTransparentBackground = true;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(60, 2);
+            this.label1.Location = new System.Drawing.Point(97, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 37);
             this.label1.TabIndex = 5;
             this.label1.Text = "Login";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(14, 279);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(195, 17);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "Não possui uma conta? Clique\r\n";
+            // 
+            // lbl_con
+            // 
+            this.lbl_con.AutoSize = true;
+            this.lbl_con.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_con.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_con.ForeColor = System.Drawing.Color.White;
+            this.lbl_con.Location = new System.Drawing.Point(204, 279);
+            this.lbl_con.Name = "lbl_con";
+            this.lbl_con.Size = new System.Drawing.Size(44, 17);
+            this.lbl_con.TabIndex = 40;
+            this.lbl_con.Text = "AQUI.";
+            this.lbl_con.Click += new System.EventHandler(this.lbl_con_Click);
             // 
             // Login
             // 
@@ -338,9 +353,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.guna2CustomGradientPanel1.ResumeLayout(false);
+            this.guna2CustomGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -355,7 +369,6 @@
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox txt_Email;
         private Guna.UI2.WinForms.Guna2TextBox txt_Senha;
@@ -366,5 +379,7 @@
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox1;
         private Guna.UI2.WinForms.Guna2TextBox txt_User;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private System.Windows.Forms.Label lbl_con;
+        private System.Windows.Forms.Label label2;
     }
 }
