@@ -26,25 +26,17 @@ namespace Teste_WEB
 
         private void pct_Bio_Click(object sender, EventArgs e)
         {
-            string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\bio.html";
-            try
-            {
-                Process.Start("chrome.exe", url);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
-            }
+          
         }
 
         private void pct_Bio_MouseLeave(object sender, EventArgs e)
         {
-            pct_Bio.Image = Properties.Resources.Bio - FrameStyle;
+            pct_Bio.Image = Properties.Resources.Biologia_Icon;
         }
 
         private void pct_Bio_MouseMove(object sender, MouseEventArgs e)
         {
-            pct_Bio.Image = Properties.Resources.Biologia_Icon;
+            pct_Bio.Image = Properties.Resources.Component_1;
         }
 
         private void pct_Fis_Click(object sender, EventArgs e)
@@ -167,6 +159,19 @@ namespace Teste_WEB
         private void Classroom_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void pct_mold1_Click(object sender, EventArgs e)
+        {
+            string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\bio.html";
+            try
+            {
+                Process.Start("chrome.exe", url);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
+            }
         }
     }
 }

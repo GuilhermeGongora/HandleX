@@ -47,6 +47,7 @@
             this.pct_Fis = new System.Windows.Forms.PictureBox();
             this.pct_Bio = new System.Windows.Forms.PictureBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pct_mold1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pct_devs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_hist)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Quim)).BeginInit();
@@ -57,6 +58,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pct_Port)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Fis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Bio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_mold1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2AnimateWindow1
@@ -226,6 +228,17 @@
             this.guna2HtmlLabel1.TabIndex = 26;
             this.guna2HtmlLabel1.Text = null;
             // 
+            // pct_mold1
+            // 
+            this.pct_mold1.BackColor = System.Drawing.Color.Transparent;
+            this.pct_mold1.Location = new System.Drawing.Point(14, 77);
+            this.pct_mold1.Name = "pct_mold1";
+            this.pct_mold1.Size = new System.Drawing.Size(168, 172);
+            this.pct_mold1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pct_mold1.TabIndex = 27;
+            this.pct_mold1.TabStop = false;
+            this.pct_mold1.Click += new System.EventHandler(this.pct_mold1_Click);
+            // 
             // Classroom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -245,6 +258,7 @@
             this.Controls.Add(this.pct_Fis);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.pct_Bio);
+            this.Controls.Add(this.pct_mold1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
@@ -263,6 +277,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pct_Port)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Fis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Bio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_mold1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -286,6 +301,7 @@
         private System.Windows.Forms.PictureBox pct_Port;
         private System.Windows.Forms.PictureBox pct_Fis;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private System.Windows.Forms.PictureBox pct_mold1;
     }
 }
 
