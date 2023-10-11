@@ -26,7 +26,15 @@ namespace Teste_WEB
 
         private void pct_Bio_Click(object sender, EventArgs e)
         {
-          
+            string url = "C:\\Users\\Rogerio_Alexandre\\Desktop\\Expotec\\bio.html";
+            try
+            {
+                Process.Start("chrome.exe", url);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir o Google Chrome: " + ex.Message);
+            }
         }
 
         private void pct_Bio_MouseLeave(object sender, EventArgs e)
