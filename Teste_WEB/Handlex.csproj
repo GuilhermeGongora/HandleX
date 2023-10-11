@@ -245,5 +245,35 @@
   <ItemGroup>
     <None Include="Resources\Biologia_Icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PT_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LIT_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FIS_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GEO_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAT_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FILO_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QUIM_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HIST_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DEVS_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BIO_FRAME.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
