@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Teste_WEB
@@ -24,11 +17,11 @@ namespace Teste_WEB
             guna2HtmlLabel1.Text = "Seja bem-vindo(a) " + nome_log;
         }
 
-       
+
 
         private void button1_MouseHover(object sender, EventArgs e)
         {
-            
+
         }
 
         private void pct_Bio_Click(object sender, EventArgs e)
@@ -46,12 +39,12 @@ namespace Teste_WEB
 
         private void pct_Bio_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox1.Visible= false;
+            pct_Bio.Image = Properties.Resources.BIO_FRAME1;
         }
 
         private void pct_Bio_MouseMove(object sender, MouseEventArgs e)
         {
-            pictureBox1.Visible = true;
+            pct_Bio.Image = Properties.Resources.Biologia_Icon;
         }
 
         private void pct_Fis_Click(object sender, EventArgs e)

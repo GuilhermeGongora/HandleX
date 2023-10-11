@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Classroom));
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
@@ -46,7 +47,6 @@
             this.pct_Fis = new System.Windows.Forms.PictureBox();
             this.pct_Bio = new System.Windows.Forms.PictureBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pct_devs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_hist)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Quim)).BeginInit();
@@ -57,7 +57,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pct_Port)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Fis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Bio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2AnimateWindow1
@@ -97,7 +96,7 @@
             // pct_devs
             // 
             this.pct_devs.BackColor = System.Drawing.Color.Transparent;
-            this.pct_devs.Image = global::Teste_WEB.Properties.Resources.DEVS_Icon;
+            this.pct_devs.Image = ((System.Drawing.Image)(resources.GetObject("pct_devs.Image")));
             this.pct_devs.Location = new System.Drawing.Point(712, 259);
             this.pct_devs.Name = "pct_devs";
             this.pct_devs.Size = new System.Drawing.Size(168, 172);
@@ -109,7 +108,7 @@
             // pct_hist
             // 
             this.pct_hist.BackColor = System.Drawing.Color.Transparent;
-            this.pct_hist.Image = global::Teste_WEB.Properties.Resources.HIST_Icon;
+            this.pct_hist.Image = ((System.Drawing.Image)(resources.GetObject("pct_hist.Image")));
             this.pct_hist.Location = new System.Drawing.Point(537, 259);
             this.pct_hist.Name = "pct_hist";
             this.pct_hist.Size = new System.Drawing.Size(168, 172);
@@ -121,7 +120,7 @@
             // pct_Quim
             // 
             this.pct_Quim.BackColor = System.Drawing.Color.Transparent;
-            this.pct_Quim.Image = global::Teste_WEB.Properties.Resources.QUIM_Icon;
+            this.pct_Quim.Image = ((System.Drawing.Image)(resources.GetObject("pct_Quim.Image")));
             this.pct_Quim.Location = new System.Drawing.Point(712, 79);
             this.pct_Quim.Name = "pct_Quim";
             this.pct_Quim.Size = new System.Drawing.Size(168, 172);
@@ -133,7 +132,7 @@
             // pct_Filo
             // 
             this.pct_Filo.BackColor = System.Drawing.Color.Transparent;
-            this.pct_Filo.Image = global::Teste_WEB.Properties.Resources.FILO_Icon;
+            this.pct_Filo.Image = ((System.Drawing.Image)(resources.GetObject("pct_Filo.Image")));
             this.pct_Filo.Location = new System.Drawing.Point(537, 79);
             this.pct_Filo.Name = "pct_Filo";
             this.pct_Filo.Size = new System.Drawing.Size(168, 172);
@@ -145,7 +144,7 @@
             // pct_Geo
             // 
             this.pct_Geo.BackColor = System.Drawing.Color.Transparent;
-            this.pct_Geo.Image = global::Teste_WEB.Properties.Resources.GEO_Icon;
+            this.pct_Geo.Image = ((System.Drawing.Image)(resources.GetObject("pct_Geo.Image")));
             this.pct_Geo.Location = new System.Drawing.Point(362, 259);
             this.pct_Geo.Name = "pct_Geo";
             this.pct_Geo.Size = new System.Drawing.Size(168, 172);
@@ -157,7 +156,7 @@
             // pct_Mat
             // 
             this.pct_Mat.BackColor = System.Drawing.Color.Transparent;
-            this.pct_Mat.Image = global::Teste_WEB.Properties.Resources.MAT_Icon;
+            this.pct_Mat.Image = ((System.Drawing.Image)(resources.GetObject("pct_Mat.Image")));
             this.pct_Mat.Location = new System.Drawing.Point(362, 79);
             this.pct_Mat.Name = "pct_Mat";
             this.pct_Mat.Size = new System.Drawing.Size(168, 172);
@@ -169,7 +168,7 @@
             // pct_Lit
             // 
             this.pct_Lit.BackColor = System.Drawing.Color.Transparent;
-            this.pct_Lit.Image = global::Teste_WEB.Properties.Resources.LIT_Icon;
+            this.pct_Lit.Image = ((System.Drawing.Image)(resources.GetObject("pct_Lit.Image")));
             this.pct_Lit.Location = new System.Drawing.Point(12, 259);
             this.pct_Lit.Name = "pct_Lit";
             this.pct_Lit.Size = new System.Drawing.Size(168, 172);
@@ -181,7 +180,7 @@
             // pct_Port
             // 
             this.pct_Port.BackColor = System.Drawing.Color.Transparent;
-            this.pct_Port.Image = global::Teste_WEB.Properties.Resources.PT_Icon;
+            this.pct_Port.Image = ((System.Drawing.Image)(resources.GetObject("pct_Port.Image")));
             this.pct_Port.Location = new System.Drawing.Point(187, 259);
             this.pct_Port.Name = "pct_Port";
             this.pct_Port.Size = new System.Drawing.Size(168, 172);
@@ -193,7 +192,7 @@
             // pct_Fis
             // 
             this.pct_Fis.BackColor = System.Drawing.Color.Transparent;
-            this.pct_Fis.Image = global::Teste_WEB.Properties.Resources.FIS_Icon;
+            this.pct_Fis.Image = ((System.Drawing.Image)(resources.GetObject("pct_Fis.Image")));
             this.pct_Fis.Location = new System.Drawing.Point(187, 79);
             this.pct_Fis.Name = "pct_Fis";
             this.pct_Fis.Size = new System.Drawing.Size(168, 172);
@@ -205,7 +204,7 @@
             // pct_Bio
             // 
             this.pct_Bio.BackColor = System.Drawing.Color.Transparent;
-            this.pct_Bio.Image = global::Teste_WEB.Properties.Resources.Biologia_Icon;
+            this.pct_Bio.Image = ((System.Drawing.Image)(resources.GetObject("pct_Bio.Image")));
             this.pct_Bio.Location = new System.Drawing.Point(14, 77);
             this.pct_Bio.Name = "pct_Bio";
             this.pct_Bio.Size = new System.Drawing.Size(168, 172);
@@ -227,22 +226,11 @@
             this.guna2HtmlLabel1.TabIndex = 26;
             this.guna2HtmlLabel1.Text = null;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Teste_WEB.Properties.Resources.BIO_FRAME;
-            this.pictureBox1.Location = new System.Drawing.Point(10, 70);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(177, 174);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
-            // 
             // Classroom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Teste_WEB.Properties.Resources.HandleX__5_;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(888, 437);
             this.Controls.Add(this.guna2HtmlLabel1);
@@ -257,7 +245,6 @@
             this.Controls.Add(this.pct_Fis);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.pct_Bio);
-            this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
@@ -276,7 +263,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pct_Port)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Fis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Bio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -300,7 +286,6 @@
         private System.Windows.Forms.PictureBox pct_Port;
         private System.Windows.Forms.PictureBox pct_Fis;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

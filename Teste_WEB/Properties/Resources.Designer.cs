@@ -63,9 +63,9 @@ namespace Teste_WEB.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BIO_FRAME {
+        internal static System.Drawing.Bitmap BIO_FRAME1 {
             get {
-                object obj = ResourceManager.GetObject("BIO_FRAME", resourceCulture);
+                object obj = ResourceManager.GetObject("BIO_FRAME1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

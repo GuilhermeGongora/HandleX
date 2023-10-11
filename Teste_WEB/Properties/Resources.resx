@@ -148,11 +148,11 @@
   <data name="icon-visivel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-visivel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon-n-visivel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-n-visivel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PT_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PT_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="HandleX (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HandleX (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DEVS_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DEVS_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,6 +165,9 @@
   </data>
   <data name="QUIM_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\QUIM_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HandleX (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HandleX (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_email" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,11 +184,14 @@
   <data name="Fortec" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fortec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BIO_FRAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BIO_FRAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon-v" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-v.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-n-visivel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-n-visivel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="HandleX (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HandleX (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FILO_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FILO_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,13 +199,13 @@
   <data name="icon_senha" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_senha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HandleX (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HandleX (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon_password" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BIO_FRAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BIO_FRAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BIO_FRAME1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BIO_FRAME1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bio-Frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bio-Frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
