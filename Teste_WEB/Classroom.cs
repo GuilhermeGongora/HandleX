@@ -39,7 +39,7 @@ namespace Teste_WEB
 
         private void pct_Bio_MouseLeave(object sender, EventArgs e)
         {
-            pct_Bio.Image = Properties.Resources.BIO_FRAME1;
+            pct_Bio.Image = Properties.Resources.Bio - FrameStyle;
         }
 
         private void pct_Bio_MouseMove(object sender, MouseEventArgs e)

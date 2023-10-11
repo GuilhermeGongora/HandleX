@@ -204,7 +204,7 @@
             // pct_Bio
             // 
             this.pct_Bio.BackColor = System.Drawing.Color.Transparent;
-            this.pct_Bio.Image = ((System.Drawing.Image)(resources.GetObject("pct_Bio.Image")));
+            this.pct_Bio.Image = global::Teste_WEB.Properties.Resources.Biologia_Icon;
             this.pct_Bio.Location = new System.Drawing.Point(14, 77);
             this.pct_Bio.Name = "pct_Bio";
             this.pct_Bio.Size = new System.Drawing.Size(168, 172);
