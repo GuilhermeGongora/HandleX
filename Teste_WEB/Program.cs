@@ -16,7 +16,7 @@ namespace Teste_WEB
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Registration());
+            Application.Run(new Splash());
         }
     }
 }
