@@ -64,7 +64,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("OCR A Extended", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(549, 303);
+            this.label1.Location = new System.Drawing.Point(594, 303);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(192, 24);
@@ -77,7 +77,7 @@
             this.guna2CircleProgressBar1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
             this.guna2CircleProgressBar1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.guna2CircleProgressBar1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleProgressBar1.Location = new System.Drawing.Point(560, 94);
+            this.guna2CircleProgressBar1.Location = new System.Drawing.Point(605, 94);
             this.guna2CircleProgressBar1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2CircleProgressBar1.Minimum = 0;
             this.guna2CircleProgressBar1.Name = "guna2CircleProgressBar1";
