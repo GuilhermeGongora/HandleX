@@ -51,6 +51,9 @@
             this.CheckBox_Show = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.guna2MessageDialog1 = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.Msg_Box = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.Msg_Data = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -311,6 +314,7 @@
             this.guna2ControlBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.BorderColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.BorderRadius = 12;
+            this.guna2ControlBox1.CustomClick = true;
             this.guna2ControlBox1.CustomIconSize = 15F;
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
@@ -360,6 +364,33 @@
             this.label3.TabIndex = 38;
             this.label3.Text = "AQUI.";
             this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // guna2MessageDialog1
+            // 
+            this.guna2MessageDialog1.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.guna2MessageDialog1.Caption = null;
+            this.guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.Information;
+            this.guna2MessageDialog1.Parent = this;
+            this.guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark;
+            this.guna2MessageDialog1.Text = "Registrado com sucesso!";
+            // 
+            // Msg_Box
+            // 
+            this.Msg_Box.Buttons = Guna.UI2.WinForms.MessageDialogButtons.YesNoCancel;
+            this.Msg_Box.Caption = null;
+            this.Msg_Box.Icon = Guna.UI2.WinForms.MessageDialogIcon.Question;
+            this.Msg_Box.Parent = this;
+            this.Msg_Box.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark;
+            this.Msg_Box.Text = "Deseja encerrar a aplicação?";
+            // 
+            // Msg_Data
+            // 
+            this.Msg_Data.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.Msg_Data.Caption = null;
+            this.Msg_Data.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error;
+            this.Msg_Data.Parent = this;
+            this.Msg_Data.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark;
+            this.Msg_Data.Text = "Por favor, preencha os campos corretamente.";
             // 
             // Form_Registration
             // 
@@ -426,5 +457,8 @@
         private Guna.UI2.WinForms.Guna2ImageCheckBox CheckBox_Show;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog1;
+        private Guna.UI2.WinForms.Guna2MessageDialog Msg_Box;
+        private Guna.UI2.WinForms.Guna2MessageDialog Msg_Data;
     }
 }

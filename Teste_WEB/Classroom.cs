@@ -271,5 +271,12 @@ namespace Teste_WEB
         {
             pct_hist.Image = Properties.Resources.Hist_Mold;
         }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogo = Msg_Exit.Show();
+            if (dialogo == DialogResult.Yes)
+                Application.Exit();
+        }
     }
 }

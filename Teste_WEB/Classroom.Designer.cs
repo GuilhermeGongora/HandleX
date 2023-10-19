@@ -48,6 +48,7 @@
             this.pct_Bio = new System.Windows.Forms.PictureBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pct_mold1 = new System.Windows.Forms.PictureBox();
+            this.Msg_Exit = new Guna.UI2.WinForms.Guna2MessageDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pct_devs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_hist)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Quim)).BeginInit();
@@ -87,6 +88,7 @@
             this.guna2ControlBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.BorderColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.BorderRadius = 12;
+            this.guna2ControlBox1.CustomClick = true;
             this.guna2ControlBox1.CustomIconSize = 15F;
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
@@ -94,6 +96,7 @@
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox1.TabIndex = 15;
+            this.guna2ControlBox1.Click += new System.EventHandler(this.guna2ControlBox1_Click);
             // 
             // pct_devs
             // 
@@ -257,6 +260,15 @@
             this.pct_mold1.TabStop = false;
             this.pct_mold1.Click += new System.EventHandler(this.pct_mold1_Click);
             // 
+            // Msg_Exit
+            // 
+            this.Msg_Exit.Buttons = Guna.UI2.WinForms.MessageDialogButtons.YesNoCancel;
+            this.Msg_Exit.Caption = null;
+            this.Msg_Exit.Icon = Guna.UI2.WinForms.MessageDialogIcon.Question;
+            this.Msg_Exit.Parent = this;
+            this.Msg_Exit.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark;
+            this.Msg_Exit.Text = "Deseja encerrar a aplicação?";
+            // 
             // Classroom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -321,6 +333,7 @@
         private System.Windows.Forms.PictureBox pct_Fis;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private System.Windows.Forms.PictureBox pct_mold1;
+        private Guna.UI2.WinForms.Guna2MessageDialog Msg_Exit;
     }
 }
 

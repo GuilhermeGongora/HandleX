@@ -42,12 +42,15 @@
             this.txt_Senha = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_Email = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.lbl_con = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.txt_User = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lbl_con = new System.Windows.Forms.Label();
+            this.Msg_Close = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.Msg_Pass = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.Msg_Wrong = new Guna.UI2.WinForms.Guna2MessageDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2CustomGradientPanel1.SuspendLayout();
@@ -60,6 +63,7 @@
             this.guna2ControlBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.BorderColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.BorderRadius = 12;
+            this.guna2ControlBox1.CustomClick = true;
             this.guna2ControlBox1.CustomIconSize = 15F;
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
@@ -67,6 +71,7 @@
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox1.TabIndex = 27;
+            this.guna2ControlBox1.Click += new System.EventHandler(this.guna2ControlBox1_Click);
             // 
             // lbl_email
             // 
@@ -74,7 +79,7 @@
             this.lbl_email.BackColor = System.Drawing.Color.Transparent;
             this.lbl_email.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_email.ForeColor = System.Drawing.Color.Red;
-            this.lbl_email.Location = new System.Drawing.Point(426, 274);
+            this.lbl_email.Location = new System.Drawing.Point(64, 138);
             this.lbl_email.Name = "lbl_email";
             this.lbl_email.Size = new System.Drawing.Size(0, 13);
             this.lbl_email.TabIndex = 22;
@@ -137,6 +142,7 @@
             this.btn_limpar.TabIndex = 21;
             this.btn_limpar.Text = "&Limpar";
             this.btn_limpar.UseTransparentBackground = true;
+            this.btn_limpar.Click += new System.EventHandler(this.btn_limpar_Click);
             // 
             // btn_registro
             // 
@@ -223,17 +229,18 @@
             this.guna2CustomGradientPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel1.BorderRadius = 22;
             this.guna2CustomGradientPanel1.Controls.Add(this.lbl_con);
+            this.guna2CustomGradientPanel1.Controls.Add(this.lbl_email);
             this.guna2CustomGradientPanel1.Controls.Add(this.label2);
             this.guna2CustomGradientPanel1.Controls.Add(this.label1);
             this.guna2CustomGradientPanel1.Controls.Add(this.txt_User);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2PictureBox1);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2ImageCheckBox1);
             this.guna2CustomGradientPanel1.Controls.Add(this.txt_Email);
-            this.guna2CustomGradientPanel1.Controls.Add(this.txt_Senha);
             this.guna2CustomGradientPanel1.Controls.Add(this.btn_registro);
             this.guna2CustomGradientPanel1.Controls.Add(this.btn_limpar);
             this.guna2CustomGradientPanel1.Controls.Add(this.pictureBox1);
             this.guna2CustomGradientPanel1.Controls.Add(this.pictureBox2);
+            this.guna2CustomGradientPanel1.Controls.Add(this.txt_Senha);
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.Black;
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.SystemColors.AppWorkspace;
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.SystemColors.InactiveCaption;
@@ -243,6 +250,43 @@
             this.guna2CustomGradientPanel1.Quality = 100;
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(286, 306);
             this.guna2CustomGradientPanel1.TabIndex = 28;
+            // 
+            // lbl_con
+            // 
+            this.lbl_con.AutoSize = true;
+            this.lbl_con.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_con.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_con.ForeColor = System.Drawing.Color.White;
+            this.lbl_con.Location = new System.Drawing.Point(204, 279);
+            this.lbl_con.Name = "lbl_con";
+            this.lbl_con.Size = new System.Drawing.Size(44, 17);
+            this.lbl_con.TabIndex = 40;
+            this.lbl_con.Text = "AQUI.";
+            this.lbl_con.Click += new System.EventHandler(this.lbl_con_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(14, 279);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(195, 17);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "Não possui uma conta? Clique\r\n";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(97, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 37);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Login";
             // 
             // txt_User
             // 
@@ -300,42 +344,32 @@
             this.guna2ImageCheckBox1.UseTransparentBackground = true;
             this.guna2ImageCheckBox1.CheckedChanged += new System.EventHandler(this.guna2ImageCheckBox1_CheckedChanged_1);
             // 
-            // label1
+            // Msg_Close
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(97, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 37);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Login";
+            this.Msg_Close.Buttons = Guna.UI2.WinForms.MessageDialogButtons.YesNoCancel;
+            this.Msg_Close.Caption = null;
+            this.Msg_Close.Icon = Guna.UI2.WinForms.MessageDialogIcon.Question;
+            this.Msg_Close.Parent = this;
+            this.Msg_Close.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark;
+            this.Msg_Close.Text = "Deseja encerrar a aplicação?";
             // 
-            // label2
+            // Msg_Pass
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(14, 279);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 17);
-            this.label2.TabIndex = 39;
-            this.label2.Text = "Não possui uma conta? Clique\r\n";
+            this.Msg_Pass.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.Msg_Pass.Caption = null;
+            this.Msg_Pass.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error;
+            this.Msg_Pass.Parent = this;
+            this.Msg_Pass.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark;
+            this.Msg_Pass.Text = "Por favor, preencha os campos corretamente.";
             // 
-            // lbl_con
+            // Msg_Wrong
             // 
-            this.lbl_con.AutoSize = true;
-            this.lbl_con.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_con.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_con.ForeColor = System.Drawing.Color.White;
-            this.lbl_con.Location = new System.Drawing.Point(204, 279);
-            this.lbl_con.Name = "lbl_con";
-            this.lbl_con.Size = new System.Drawing.Size(44, 17);
-            this.lbl_con.TabIndex = 40;
-            this.lbl_con.Text = "AQUI.";
-            this.lbl_con.Click += new System.EventHandler(this.lbl_con_Click);
+            this.Msg_Wrong.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.Msg_Wrong.Caption = null;
+            this.Msg_Wrong.Icon = Guna.UI2.WinForms.MessageDialogIcon.Warning;
+            this.Msg_Wrong.Parent = this;
+            this.Msg_Wrong.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark;
+            this.Msg_Wrong.Text = "Login invalido!";
             // 
             // Login
             // 
@@ -344,7 +378,6 @@
             this.BackgroundImage = global::Teste_WEB.Properties.Resources.HandleX__3_;
             this.ClientSize = new System.Drawing.Size(858, 429);
             this.Controls.Add(this.guna2ControlBox1);
-            this.Controls.Add(this.lbl_email);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
@@ -356,7 +389,6 @@
             this.guna2CustomGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -381,5 +413,8 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label lbl_con;
         private System.Windows.Forms.Label label2;
+        private Guna.UI2.WinForms.Guna2MessageDialog Msg_Close;
+        private Guna.UI2.WinForms.Guna2MessageDialog Msg_Pass;
+        private Guna.UI2.WinForms.Guna2MessageDialog Msg_Wrong;
     }
 }

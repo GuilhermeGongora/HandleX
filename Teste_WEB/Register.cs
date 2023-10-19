@@ -67,7 +67,7 @@ namespace Teste_WEB
         private void btn_registro_Click_1(object sender, EventArgs e)
         {
             if (txt_User.Text == "" || txt_Senha.Text == "" || txt_Email.Text == "" || cmb_Sexo.Text == "")
-                MessageBox.Show("Por favor, preencha os campos corretamente", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Msg_Data.Show();
             if (validate_emailaddress.IsMatch(txt_Email.Text) != true)
             {
                 lbl_email.Text = "Email inválido, insira um email válido.";
@@ -83,7 +83,7 @@ namespace Teste_WEB
                 sqlCmd.Parameters.AddWithValue("@Email", txt_Email.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@Sexo", cmb_Sexo.Text.Trim());
                 sqlCmd.ExecuteNonQuery();
-                MessageBox.Show("Registrado com sucesso!", "Confirmação", MessageBoxButtons.OK);
+                guna2MessageDialog1.Show();
                 Classroom destino = new Classroom(txt_User.Text);
                 this.Hide();
                 destino.Show();
@@ -104,6 +104,8 @@ namespace Teste_WEB
 
         private void guna2ControlBox1_Click(object sender, EventArgs e)
         {
+            DialogResult dialogo = Msg_Box.Show();
+            if (dialogo == DialogResult.Yes)
             Application.Exit();
         }
 

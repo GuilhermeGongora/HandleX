@@ -63,7 +63,7 @@ namespace Teste_WEB
             user_password = txt_Senha.Text;
 
             if (txt_Email.Text == "" || txt_Senha.Text == "")
-                MessageBox.Show("Por favor, preencha os campos corretamente", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Msg_Pass.Show();
             if (validate_emailaddress.IsMatch(txt_Email.Text) != true)
             {
                 lbl_email.Text = "Email inválido!";
@@ -85,7 +85,7 @@ namespace Teste_WEB
                 }
                 else
                 {
-                    MessageBox.Show("Login inválido", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Msg_Wrong.Show();
                     txt_Email.Clear();
                     txt_Senha.Clear();
                     txt_Email.Focus();
@@ -106,6 +106,21 @@ namespace Teste_WEB
             Form_Registration destino_reg = new Form_Registration();
             this.Hide();
             destino_reg.Show();
+        }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogo = Msg_Close.Show();
+            if (dialogo == DialogResult.Yes)
+                Application.Exit();
+        }
+
+        private void btn_limpar_Click(object sender, EventArgs e)
+        {
+            txt_Email.Clear();
+            txt_Senha.Clear();
+            txt_User.Clear();
+            lbl_email.Text = "";
         }
     }
 }
